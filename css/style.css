@@ -16,12 +16,20 @@ header{
   left: 0;
   z-index: 1;
 }
-header h1{
+h1{
   color: white;
+  font-size: 80px;
+}
+
+.marioclub{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
   border: 8px solid white;
   display: inline-block;
   padding: 6px 12px;
   border-radius: 36px;
+  margin: auto;
 }
 .banner{
   position: relative;
@@ -131,7 +139,7 @@ section.join{
   padding: 60px 20px;
   color: #4B4B4B;
 }
-section.join h2{
+section.join h3{
   font-size: 36px;
 }
 form {
