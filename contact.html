@@ -33,10 +33,14 @@
         <article>
             <h2>Get in touch with me, Mario</h2>
             <form>
-                <input type="text" name="fname" placeholder="Type Firstname" required>
-                <input type="text" name="lname" placeholder="Type Lastname" required><br />
-                <input type="email" name="mail" placeholder="Type Email" required>
-                <input list="countries" name="country" id="country">
+                <label for="firstname">Firstname</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Type Firstname" required>
+                <label for="lname">Lastname</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Type Lastname" required><br />
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Type Email" required>
+                <label for="country">Country</label>
+                <input list="countries" id="country" name="country">
                 <datalist id="countries">
                     <option value="Albania">
                     <option value="Austria">
@@ -72,8 +76,9 @@
                     <option value="Ukraine">
                     <option value="United Kingdom">
                 </datalist>
-                <br />
-                <textarea name="question" rows="4" cols="40" placeholder="Ask a question...">Ask a question</textarea>
+                <br/>
+                <label for="question">Your question</label>
+                <textarea id="question" name="question" placeholder="Ask a question..."></textarea>
                 <input type="submit" value="Get in Touch">
             </form>
         </article>
@@ -86,7 +91,8 @@
         <h3>Contact Us today!</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis dignissimos minus voluptatem.</p>
         <form>
-            <input type="email" name="email" placeholder="Type email & hit enter" required>
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="Type email & hit enter" required>
         </form>
 
     </section>
