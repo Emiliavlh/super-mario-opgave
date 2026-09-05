@@ -4,12 +4,12 @@ Notér resultaterne før og efter optimering.
 
 Du kan eksempelvis bruge denne tabel:
 
-| Side | Performance før | Performance efter | Accessibility efter |
-|---|---:|---:|---:|
-| `index.html` 89 | 100 | 85 | 100 |
-| `news.html` ! | 94 | 85 | 100 |
-| `games.html` 75 | 99 | 85 | 100 |
-| `contact.html` ! | 100 | 77 | 100 |
+| Side | Performance før | Performance efter | Accessibility før | Accessibility efter 
+|---|---:|---:|---:|---:|
+| `index.html`| 89 | 100 | 85 | 100 |
+| `news.html`| ! | 94 | 85 | 100 |
+| `games.html`| 75 | 99 | 85 | 100 |
+| `contact.html`| ! | 100 | 77 | 100 |
 
 Skriv derefter kort:
 
